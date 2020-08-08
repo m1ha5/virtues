@@ -1,0 +1,14 @@
+{
+  "name": "@m1ha5/father-of-orphans-sunburst",
+  "main": "b096b45b3617281a@542.js",
+  "version": "542.0.0",
+  "homepage": "https://observablehq.com/@m1ha5/father-of-orphans-sunburst",
+  "author": {
+    "name": "Hussain",
+    "url": "https://observablehq.com/@m1ha5"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
