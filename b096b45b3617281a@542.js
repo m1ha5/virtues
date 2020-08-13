@@ -8,7 +8,7 @@ md`# Father of Orphans Sunburst
 
 بسم الله الرحمن الرحيم
 
-Graphical representation of the virtues discussed in this booklet as per various traits of Imam Ali(as).  The inner most rings are the virtues, while the outer most are verses. A surah which contained multiple verses mapping a single virtue is reflected in the middle ring to help group the verses.
+Graphical representation of the virtues discussed in "The Father of Orphans" as per various traits of Imam Ali(as).  The inner most rings are the virtues, while the outer most are verses. A surah which contained multiple verses mapping a single virtue is reflected in the middle ring to help group the verses.
 
 `
 )});
@@ -78,7 +78,7 @@ Graphical representation of the virtues discussed in this booklet as per various
     .attr("x", 0)
     .attr("y", 0)
     .attr("dy", "1.5em")
-    .text("% of surahs speak out this aspect");
+    .text("% of surahs referenced speak out this aspect");
 
   svg
     .attr("viewBox", `${-radius} ${-radius} ${width} ${width}`)
@@ -161,8 +161,8 @@ data =>
   main.variable(observer("color")).define("color", ["d3"], function(d3){return(
 d3
   .scaleOrdinal()
-  .domain(["Leadership", "Generosity","Devotion", "Kindness_and_Love", "Spirituality", "Aal_Imran","Al_Ahzaab","Al_Anaam","Al_Anfaal","Al_Araf","Al_Baqara","Al_Baqrah","Al_Hashr","Al_Insaan","Al_Maidah","Al_Muminoon","Al_Nahl","Al_Najm","An_Noor","An_Nisa","Ar_Rad","5:3","5:55","5:67","7:181","9:119","13:7","33:33","53:1","53:2","53:3","53:4","2:274","9:79","23:4","33:35","24:37","2:156","2:157","2:207","3:61","3:145","3:146","3:147","3:148","3:173","5:54","59:9","16:90","76:8","39:33","42:1","3:103","4:83","6:153","7:44","7:46","7:157","8:11","8:62","end"])
-  .range(["#ffe8a4", "#ffc767", "#ff8966", "#fa6170", "#d5446d", "#ba00a4","#ffd185","#ffe599","#8e7cc3","#79a2c5","#e85366","#e85366","#e06666","#e06666","#791e87","#26a96c","#ea9999","#32767f","#79a9d1","#ffe599","#a7eae7","#791e87","#791e87","#791e87","#79a2c5","#fe19ac","#a7eae7","#ffd185","#32767f","#32767f","#32767f","#32767f","#e85366","#e0299a","#26a96c","#ffd185","#79a9d1","#e85366","#e85366","#e85366","#ba00a4","#ba00a4","#ba00a4","#ba00a4","#ba00a4","#ba00a4","#791e87","#e06666","#ea9999","#e06777","#baff99","#76da77","#ba00a4","#71d389","#58af7f","#6fa8dc","#6fa8dc","#6fa8dc","#8e7cc3","#8e7cc3","#bbbbbb"])
+  .domain(["5:3","5:55","5:67","AL_MAIDAH","7:181","9:119","13:7","33:33","36:12","53:1","53:2","53:3","53:4","AL_NAJM","LEADERSHIP","2:274","9:79","23:4","24:37","33:35","GENEROSITY","2:156","2:157","2:207","AL_BAQARA","3:61","3:145","3:147","3:148","3:173","AAL_IMRAN","5:54","DEVOTION","16:90","59:9","76:8","KINDNESS","3:103","4:83","6:153","39:33","42:1","7:44","7:46","7:157","AL_ARAF","8:11","8:62","AL_ANFAL","SPIRTUALITY","end"])
+  .range(["#adb045","#cae084","#adb045","#6ebd45","#a8d389","#6ebd45","#a8d389","#6ebd45","#a8d389","#cae08f","#adb045","#cae08f","#adb045","#6ebd45","#369847","#f68e2c","#fbb87b","#f68e2c","#fbb87b","#f68e2c","#f04824","#b8489c","#ce90bf","#b8489c","#b98bbe","#ce90bf","#b8489c","#ce90bf","#b8489c","#ce90bf","#994b9d","#b98bbe","#693e96","#e5817d","#efb0a8","#e5817d","#d56b6d","#7ad1eb","#00b9e0","#7ad1eb","#00b9e0","#7ad1eb","#7ad1eb","#a8def1","#7ad1eb","#00b9e0","#a8def1","#7ad1eb","#7ad1eb","#02a0ca","#bbbbbb"])
 )});
   main.variable(observer("width")).define("width", function(){return(
 640
