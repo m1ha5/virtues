@@ -161,8 +161,8 @@ data =>
   main.variable(observer("color")).define("color", ["d3"], function(d3){return(
 d3
   .scaleOrdinal()
-  .domain(["5:3","5:55","5:67","AL_MAIDAH","7:181","9:119","13:7","33:33","36:12","53:1","53:2","53:3","53:4","AL_NAJM","LEADERSHIP","2:274","9:79","23:4","24:37","33:35","GENEROSITY","2:156","2:157","2:207","AL_BAQARA","3:61","3:145","3:146","3:147","3:148","3:173","AAL_IMRAN","5:54","DEVOTION","16:90","59:9","76:8","KINDNESS","3:103","4:83","6:153","39:33","42:1","7:44","7:46","7:157","AL_ARAF","8:11","8:62","AL_ANFAAL","SPIRTUALITY","end"])
-  .range(["#adb045","#cae084","#adb045","#6ebd45","#a8d389","#6ebd45","#a8d389","#6ebd45","#a8d389","#cae08f","#adb045","#cae08f","#adb045","#6ebd45","#369847","#f68e2c","#fbb87b","#f68e2c","#fbb87b","#f68e2c","#f04824","#b8489c","#ce90bf","#b8489c","#b98bbe","#ce90bf","#b8489c","#ce90bf","#b8489c","#ce90bf","#994b9d","#b98bbe","#693e96","#e5817d","#efb0a8","#e5817d","#d56b6d","#7ad1eb","#00b9e0","#7ad1eb","#00b9e0","#7ad1eb","#7ad1eb","#a8def1","#7ad1eb","#00b9e0","#a8def1","#7ad1eb","#7ad1eb","#02a0ca","#bbbbbb"])
+      .domain(["5:3","5:55","5:67","Al_MAIDAH","7:181","9:119","13:7","33:33","36:12","53:1","53:2","53:3","53:4","AL_NAJM","LEADERSHIP","2:274","9:79","23:4","24:37","33:35","GENEROSITY","2:156","2:157","2:207","AL_BAQARA","3:61","3:145","3:146","3:147","3:148","3:173","AAL_IMRAN","5:54","DEVOTION","16:90","59:9","76:8","KINDNESS","3:103","4:83","6:153","39:33","42:1","7:44","7:46","7:157","AL_ARAF","8:11","8:62","AL_ANFAAL","SPIRTUALITY","end"])
+        .range(["#B2DF36","#cae084","#B2DF36","#6ebd45","#a8d389","#6ebd45","#a8d389","#6ebd45","#a8d389","#cae08f","#B2DF36","#cae08f","#B2DF36","#6ebd45","#369847","#f68e2c","#fbb87b","#f68e2c","#fbb87b","#f68e2c","#f04824","#b84a9c","#ce90bf","#b84a9c","#b98bbe","#ce90bf","#b84a9c","#ce90bf","#b84a9c","#ce90bf","#b84a9c","#994b9d","#b98bbe","#693e96","#e5817d","#efb0a8","#e5817d","#d56b6d","#7ad1eb","#00b9e0","#7ad1eb","#00b9e0","#7ad1eb","#7ad1eb","#a8def1","#7ad1eb","#00b9e0","#a8def1","#7ad1eb","#7ad1eb","#02a0ca","#bbbbbb"])
 )});
   main.variable(observer("width")).define("width", function(){return(
 640
